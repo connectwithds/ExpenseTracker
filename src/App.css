@@ -36,3 +36,74 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  position: fixed;
+  top: 10%;
+  bottom: 10%;
+  left: 20%;
+  width: 60%;
+}
+
+.box {
+  text-align: left;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  overflow: auto;
+
+  margin: 60px;
+  width: 70%;
+  height: 250px;
+  border-radius: 17px;
+  background: #e0e0e0;
+  box-shadow: 31px 31px 63px #8f8f8f, -31px -31px 63px #ffffff;
+}
+.transactionwindow {
+  margin-top: 10px;
+  margin-left: 15%;
+  padding: 10px;
+  width: 70%;
+  border: 1px solid rgb(94, 192, 176);
+  border-radius: 25px;
+
+  font: bold 15px/30px Arial, serif;
+}
+.outerbox {
+  -webkit-box-shadow: 10px 10px 38px 7px rgba(0, 0, 0, 0.97);
+  -moz-box-shadow: 10px 10px 38px 7px rgba(0, 0, 0, 0.97);
+  box-shadow: 10px 10px 38px 7px rgba(0, 0, 0, 0.97);
+
+  border-radius: 20px;
+  background-color: rgb(193, 248, 222);
+}
+
+button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  padding: 5px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 1px solid;
+  border-radius: 6px;
+  color: #0366d6;
+  background-color: #fafbfc;
+  border-color: #1b1f2326;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px,
+    rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color, background-color, border-color;
+}
+button:hover {
+  color: #ffffff;
+  background-color: #0366d6;
+  border-color: #1b1f2326;
+  box-shadow: rgba(27, 31, 35, 0.1) 0px 1px 0px 0px,
+    rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset;
+  transition-duration: 0.1s;
+}
